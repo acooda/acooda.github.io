@@ -1,70 +1,38 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	
-	<title>Full Page Background Image | CSS #2</title>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Html : ">
 
-	<style>
-		
-		#bg {
-			position:fixed; 
-			top:-50%; 
-			left:-50%; 
-			width:200%; 
-			height:200%;
-		}
-		#bg img {
-			position:absolute; 
-			top:0; 
-			left:0; 
-			right:0; 
-			bottom:0; 
-			margin:auto; 
-			min-width:50%;
-			min-height:50%;
-		}
-		
-		#page-wrap { 
-            position: relative; z-index: 2; 
-            width: 600px; 
-            margin: 20px auto; 
-            padding: 10px; 
-            background: white; 
-            -moz-box-shadow: 0 0 20px black; 
-            -webkit-box-shadow: 0 0 20px black; 
-            box-shadow: 0 0 20px black; 
-        }
-        
-		p { font: 14px/2; margin: 0 0 10px 0; text-indent: 0px; }
-	</style>
-</head>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-<body>
-	
-    
-    <div id="page-wrap">
-    <p>test page</p>    
-    <p>server name image</p> 
+    <title>test</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer" style="background: url(http://static.plaync.co.kr/lineage/multimedia/conceptart/201304/kirtas2.jpg) no-repeat;
+/* background-position: initial; */background-position-x: 82%;background-position-y: 47%;">
+        <header class="inner">
+          <a id="forkme_banner" href="#">Staus Server On</a>
+
+          <h1 id="project_title">Server Name<a> image</a></h1>
+          <h2 id="project_tagline">Free Lineage server team.<br />test 서비스 프리서버 리니지니</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="http://goo.gl/YxkF1D">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="http://goo.gl/YxkF1D">Download this project as a tar.gz file</a>
+            </section>
+        </header>
     </div>
-    
-    
-    <div id="page-wrap">
-        <p>test lnk</p>    
-        <p>test index2 : <a href="./index2.html">index2.html</a></p>  
-        <p>게임 다운로드: <a href="google">from goole</a></p>  
-        <p>게임 다운로드: <a href="github">from github</a></p>
-        
-        
-        
-    </div>
-    
-    
-    
-	<div id="page-wrap">
-	
-		<h3>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner" >
+        <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to FreeServer Pages.</h3>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
@@ -162,14 +130,19 @@
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-     
-	</div>
-	
-	<!-- At bottom, 'cause it's not really content -->
-	<div id="bg">
-		<img src="images/bg.jpg" alt="">
-	</div>
-	
-</body>
+      </section>
+    </div>
 
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer" style="background: url(http://static.plaync.co.kr/lineage/multimedia/conceptart/201304/kirtas2.jpg) no-repeat;
+/* background-position: initial; */background-position-x: 82%;background-position-y: 47%;">
+      <footer class="inner">
+        <p class="copyright">Html maintained by <a href="https://github.com/acooda">acooda</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
